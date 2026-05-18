@@ -1,0 +1,24 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "gaps": [
+    {
+      "id": "gap_001",
+      "component_id": "sensor_fusion",
+      "gap": "Internal algorithm is not directly observable from public-reference evidence.",
+      "next_review_step": "Request technical documentation, test data, or qualified expert review."
+    },
+    {
+      "id": "gap_002",
+      "component_id": "joint_actuation",
+      "gap": "Motor supplier, reducer type, and control parameters are not confirmed.",
+      "next_review_step": "Review product teardown, supplier disclosures, or engineering documentation if authorized."
+    },
+    {
+      "id": "gap_003",
+      "component_id": "patent_candidates",
+      "gap": "Patent candidates are demo placeholders and require jurisdiction-specific legal review.",
+      "next_review_step": "Run counsel-reviewed search and claim mapping outside this public demo repository."
+    }
+  ]
+}
+

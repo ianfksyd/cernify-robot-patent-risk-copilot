@@ -1,0 +1,40 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "risk_items": [
+    {
+      "component_id": "head_perception",
+      "technical_features": [
+        "depth camera",
+        "3D ranging sensor",
+        "sensor fusion"
+      ],
+      "risk_level": "medium",
+      "patent_candidates": [
+        "SAMPLE-PATENT-001",
+        "SAMPLE-PATENT-002"
+      ],
+      "evidence_gaps": [
+        "Sensor fusion implementation not confirmed.",
+        "Claim scope requires legal review."
+      ]
+    },
+    {
+      "component_id": "joint_actuation",
+      "technical_features": [
+        "torque motor",
+        "reducer",
+        "motion control"
+      ],
+      "risk_level": "medium",
+      "patent_candidates": [
+        "SAMPLE-PATENT-003"
+      ],
+      "evidence_gaps": [
+        "Supplier source not confirmed.",
+        "Control parameters not observable."
+      ]
+    }
+  ],
+  "legal_disclaimer": "Demo risk map only. Not legal advice, infringement determination, or FTO legal opinion."
+}
+

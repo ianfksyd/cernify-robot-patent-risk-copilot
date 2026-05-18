@@ -1,0 +1,30 @@
+{
+  "component_id": "head_perception",
+  "risk_level": "medium",
+  "risk_factors": [
+    "Perception modules are patent-dense in robotics products.",
+    "Sensor fusion method is not visible and requires technical verification.",
+    "Target jurisdictions may have different claim scope and enforcement procedures."
+  ],
+  "patent_candidates": [
+    {
+      "publication_number": "SAMPLE-PATENT-001",
+      "match_type": "technical-feature-placeholder",
+      "confidence": "demo-only",
+      "jurisdiction": "US"
+    },
+    {
+      "publication_number": "SAMPLE-PATENT-002",
+      "match_type": "component-placeholder",
+      "confidence": "demo-only",
+      "jurisdiction": "EP"
+    }
+  ],
+  "evidence_gaps": [
+    "Algorithm implementation not confirmed.",
+    "Supplier component source not confirmed.",
+    "Claim chart requires review by qualified patent counsel."
+  ],
+  "legal_disclaimer": "Not legal advice or an infringement determination."
+}
+

@@ -1,0 +1,28 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "media_files_included": false,
+  "observations": [
+    {
+      "id": "obs_001",
+      "source": "source_video_reference.md",
+      "timestamp": "TBD",
+      "observed_feature": "Head perception module appears as a visible external module.",
+      "evidence_class": "observable"
+    },
+    {
+      "id": "obs_002",
+      "source": "source_video_reference.md",
+      "timestamp": "TBD",
+      "observed_feature": "Leg joints indicate multi-axis actuation.",
+      "evidence_class": "observable"
+    },
+    {
+      "id": "obs_003",
+      "source": "source_video_reference.md",
+      "timestamp": "TBD",
+      "observed_feature": "Sensor fusion is a reasonable inference but not directly observable.",
+      "evidence_class": "inferred"
+    }
+  ]
+}
+

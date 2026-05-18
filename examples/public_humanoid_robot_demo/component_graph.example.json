@@ -1,0 +1,48 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "nodes": [
+    {
+      "id": "whole_robot",
+      "label": "Whole robot",
+      "level": 0,
+      "evidence_status": "observable",
+      "children": [
+        "head_perception",
+        "torso_control",
+        "joint_actuation",
+        "end_effector",
+        "power_system"
+      ]
+    },
+    {
+      "id": "head_perception",
+      "label": "Head perception module",
+      "level": 1,
+      "evidence_status": "observable",
+      "children": [
+        "depth_camera",
+        "ranging_sensor",
+        "sensor_fusion"
+      ]
+    },
+    {
+      "id": "joint_actuation",
+      "label": "Joint actuation module",
+      "level": 1,
+      "evidence_status": "observable",
+      "children": [
+        "torque_motor",
+        "reducer",
+        "motion_control"
+      ]
+    },
+    {
+      "id": "sensor_fusion",
+      "label": "Sensor fusion function",
+      "level": 2,
+      "evidence_status": "inferred",
+      "children": []
+    }
+  ]
+}
+

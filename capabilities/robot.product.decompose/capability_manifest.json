@@ -1,0 +1,13 @@
+{
+  "id": "robot.product.decompose",
+  "name": "Robot Product Decomposition",
+  "version": "0.1.0",
+  "description": "Builds a demo component graph from public-reference or synthetic robot product evidence.",
+  "input_schema": "input.example.json",
+  "output_schema": "output.example.json",
+  "data_boundary": "public-reference-or-synthetic-only",
+  "license_scope": "schema-and-demo-examples-only",
+  "production_cernify_included": false,
+  "legal_disclaimer": "Demo workflow only. Not legal advice or an infringement determination."
+}
+

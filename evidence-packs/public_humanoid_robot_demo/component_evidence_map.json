@@ -1,0 +1,30 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "component_evidence": [
+    {
+      "component_id": "head_perception",
+      "supporting_observations": [
+        "obs_001"
+      ],
+      "evidence_status": "observable",
+      "notes": "Visible external module in public-reference evidence."
+    },
+    {
+      "component_id": "joint_actuation",
+      "supporting_observations": [
+        "obs_002"
+      ],
+      "evidence_status": "observable",
+      "notes": "Visible joint layout supports component-level analysis."
+    },
+    {
+      "component_id": "sensor_fusion",
+      "supporting_observations": [
+        "obs_003"
+      ],
+      "evidence_status": "inferred",
+      "notes": "Requires technical verification. Not proven from public media alone."
+    }
+  ]
+}
+

@@ -1,0 +1,8 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "component_graph_uri": "examples/public_humanoid_robot_demo/component_graph.example.json",
+  "evidence_graph_uri": "examples/public_humanoid_robot_demo/evidence_graph.example.json",
+  "patent_risk_map_uri": "examples/public_humanoid_robot_demo/patent_risk_map.example.json",
+  "report_template": "sample_robot_fto_evidence_report"
+}
+

@@ -1,0 +1,46 @@
+{
+  "component_graph": [
+    {
+      "id": "whole_robot",
+      "name": "Whole robot",
+      "level": 0,
+      "evidence_status": "observable",
+      "children": [
+        "head_perception",
+        "torso_control",
+        "joint_actuation",
+        "end_effector",
+        "power_system"
+      ]
+    },
+    {
+      "id": "head_perception",
+      "name": "Head perception module",
+      "level": 1,
+      "evidence_status": "observable",
+      "children": [
+        "depth_camera",
+        "lidar_window",
+        "sensor_fusion"
+      ]
+    },
+    {
+      "id": "sensor_fusion",
+      "name": "Sensor fusion function",
+      "level": 2,
+      "evidence_status": "inferred",
+      "children": []
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "component": "sensor_fusion",
+      "gap": "Internal fusion algorithm is not directly observable from public product evidence."
+    },
+    {
+      "component": "joint_actuation",
+      "gap": "Motor control parameters and supplier-specific implementation are not confirmed."
+    }
+  ]
+}
+

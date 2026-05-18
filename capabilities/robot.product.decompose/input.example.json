@@ -1,0 +1,29 @@
+{
+  "product_name": "Public humanoid robot demo case",
+  "evidence_assets": [
+    {
+      "id": "asset_public_video_reference",
+      "type": "video_reference",
+      "source": "public_source_reference",
+      "uri": "TBD_PUBLIC_SOURCE_URL",
+      "redistributed_in_repository": false
+    },
+    {
+      "id": "asset_public_specs",
+      "type": "specification_summary",
+      "source": "synthetic_demo_summary",
+      "uri": "examples/public_humanoid_robot_demo/product_input.example.json"
+    }
+  ],
+  "decomposition_policy": {
+    "general_parts_depth": "shallow",
+    "specialized_parts_depth": "deep",
+    "target_domains": [
+      "perception",
+      "locomotion",
+      "control",
+      "manipulation"
+    ]
+  }
+}
+

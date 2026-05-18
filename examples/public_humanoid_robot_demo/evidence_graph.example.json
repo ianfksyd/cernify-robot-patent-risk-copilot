@@ -1,0 +1,29 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "edges": [
+    {
+      "from": "asset_public_video_reference",
+      "to": "head_perception",
+      "relationship": "supports_observable_component",
+      "evidence_strength": "medium"
+    },
+    {
+      "from": "head_perception",
+      "to": "sensor_fusion",
+      "relationship": "supports_reasonable_inference",
+      "evidence_strength": "low"
+    },
+    {
+      "from": "joint_actuation",
+      "to": "motion_control",
+      "relationship": "requires_verification",
+      "evidence_strength": "gap"
+    }
+  ],
+  "evidence_classes": {
+    "observable": "Visible or directly stated in public-reference evidence.",
+    "inferred": "Reasonable technical inference that requires verification.",
+    "gap": "Not confirmed from public-reference evidence."
+  }
+}
+

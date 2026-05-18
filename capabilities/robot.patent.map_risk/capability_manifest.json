@@ -1,0 +1,13 @@
+{
+  "id": "robot.patent.map_risk",
+  "name": "Robot Patent Risk Mapping",
+  "version": "0.1.0",
+  "description": "Maps demo robot components and technical features to patent-risk factors and evidence gaps.",
+  "input_schema": "input.example.json",
+  "output_schema": "output.example.json",
+  "data_boundary": "public-reference-or-synthetic-only",
+  "license_scope": "schema-and-demo-examples-only",
+  "production_cernify_included": false,
+  "legal_disclaimer": "Demo workflow only. Not legal advice, an infringement determination, or an FTO legal opinion."
+}
+

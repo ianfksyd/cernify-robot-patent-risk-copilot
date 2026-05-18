@@ -1,0 +1,15 @@
+{
+  "report_uri": "reports/sample_robot_fto_evidence_report.md",
+  "case_id": "public_humanoid_robot_demo",
+  "status": "generated_demo_report",
+  "legal_disclaimer": "Demo report only. Not legal advice or an FTO legal opinion.",
+  "included_sections": [
+    "Scope",
+    "Product Evidence",
+    "Component Graph",
+    "Patent-Risk Map",
+    "Evidence Gaps",
+    "Next Review Steps"
+  ]
+}
+

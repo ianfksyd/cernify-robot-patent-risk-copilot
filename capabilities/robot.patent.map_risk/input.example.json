@@ -1,0 +1,16 @@
+{
+  "component_id": "head_perception",
+  "technical_features": [
+    "depth camera",
+    "3D ranging sensor",
+    "sensor fusion"
+  ],
+  "target_jurisdictions": [
+    "US",
+    "EP",
+    "JP"
+  ],
+  "evidence_mode": "public_reference_or_synthetic",
+  "include_real_patent_numbers": false
+}
+

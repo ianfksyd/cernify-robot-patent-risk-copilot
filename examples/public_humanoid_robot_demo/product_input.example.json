@@ -1,0 +1,24 @@
+{
+  "case_id": "public_humanoid_robot_demo",
+  "product_category": "humanoid robot",
+  "input_assets": [
+    {
+      "id": "asset_public_video_reference",
+      "type": "video_reference",
+      "source_reference": "evidence-packs/public_humanoid_robot_demo/source_video_reference.md",
+      "redistributed_in_repository": false
+    },
+    {
+      "id": "asset_synthetic_specs",
+      "type": "synthetic_specification_summary",
+      "summary": "Demo-only humanoid robot specification summary for product-risk workflow illustration."
+    }
+  ],
+  "target_jurisdictions": [
+    "US",
+    "EP",
+    "JP"
+  ],
+  "legal_disclaimer": "Demo input only. Not legal advice."
+}
+
