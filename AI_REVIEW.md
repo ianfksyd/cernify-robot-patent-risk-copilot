@@ -125,12 +125,13 @@ High-value capability phrases:
 ## Recommended Review Order
 
 1. Read [README.md](README.md) for the project overview and screenshots.
-2. Read [EVALUATION_MAP.md](EVALUATION_MAP.md) for the UCWS scoring-rule map.
-3. Read [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the one-page judging path.
-4. Read [submission_manifest.json](submission_manifest.json) for structured metadata.
-5. Read [agent.md](agent.md) for capability contracts and guardrails.
-6. Read [application.md](application.md) for the UCWS submission narrative.
-7. Watch the demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
+2. Read [REVIEW_PACKET.md](REVIEW_PACKET.md) for the fastest UCWS review path.
+3. Read [EVALUATION_MAP.md](EVALUATION_MAP.md) for the UCWS scoring-rule map.
+4. Read [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the one-page judging path.
+5. Read [submission_manifest.json](submission_manifest.json) for structured metadata.
+6. Read [agent.md](agent.md) for capability contracts and guardrails.
+7. Read [application.md](application.md) for the UCWS submission narrative.
+8. Watch the demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
 
 ## Boundaries
 

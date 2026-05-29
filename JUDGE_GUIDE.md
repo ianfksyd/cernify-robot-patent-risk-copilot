@@ -15,11 +15,12 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 ## What To Review First
 
 1. Watch the public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
-2. Read `EVALUATION_MAP.md` for the UCWS scoring alignment.
-3. Read `submission_manifest.json` for machine-readable metadata.
-4. Read `agent.md` for capability contract and guardrails.
-5. Read `application.md` for the project narrative.
-6. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
+2. Read `REVIEW_PACKET.md` for the fastest review packet.
+3. Read `EVALUATION_MAP.md` for the UCWS scoring alignment.
+4. Read `submission_manifest.json` for machine-readable metadata.
+5. Read `agent.md` for capability contract and guardrails.
+6. Read `application.md` for the project narrative.
+7. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
 
 
 ## Scoring Alignment

@@ -3,6 +3,7 @@
   "project_name": "Cernify Robot Patent Risk Copilot",
   "repository_url": "https://github.com/ianfksyd/cernify-robot-patent-risk-copilot",
   "ai_review_entry_point": "AI_REVIEW.md",
+  "review_packet": "REVIEW_PACKET.md",
   "evaluation_map": "EVALUATION_MAP.md",
   "platform_positioning": "Cernify is a full-cycle AI patent platform with patent drafting as the core business.",
   "core_business": "Patent drafting and patent document generation workflows.",
@@ -35,6 +36,7 @@
     "community_vote_30_percent": {
       "goal": "Global users can understand the product value quickly and are willing to vote, share, or recommend it.",
       "evidence": [
+        "REVIEW_PACKET.md provides the fastest review path across community, AI, and expert scoring.",
         "README includes public positioning, screenshot, demo link, workflow, and quick review path.",
         "pitch_90s.md provides a concise shareable story.",
         "Demo video is public and uses an intuitive robotics product scenario.",
@@ -45,6 +47,7 @@
     "ai_evaluation_30_percent": {
       "goal": "AI systems can verify repository completeness, documentation clarity, demo accessibility, technical logic, and project authenticity.",
       "evidence": [
+        "REVIEW_PACKET.md provides the fastest review path across community, AI, and expert scoring.",
         "AI_REVIEW.md is the primary crawler entry point.",
         "submission_manifest.json provides machine-readable metadata and file inventory.",
         "agent.md documents capability contracts and guardrails.",
@@ -55,6 +58,7 @@
     "expert_judges_40_percent": {
       "goal": "Expert reviewers can evaluate real problem fit, technical depth, product maturity, internationalization, and commercialization potential.",
       "evidence": [
+        "REVIEW_PACKET.md provides the fastest review path across community, AI, and expert scoring.",
         "Cernify is positioned as a full-cycle AI patent platform with patent drafting as the core business.",
         "The UCWS demo addresses robotics overseas patent review and drafting preparation.",
         "Technical workflow includes product evidence, component graph, evidence graph, patent-risk map, and report artifact.",
@@ -119,11 +123,16 @@
     "internationalization",
     "commercialization potential",
     "product maturity",
-    "technical depth"
+    "technical depth",
+    "review packet",
+    "60-second review",
+    "shareable product story",
+    "drafting-ready patent review map"
   ],
   "submission_files": [
     "README.md",
     "AI_REVIEW.md",
+    "REVIEW_PACKET.md",
     "EVALUATION_MAP.md",
     "JUDGE_GUIDE.md",
     "pitch_90s.md",

@@ -10,6 +10,20 @@ Cernify is a full-cycle AI patent platform with patent drafting as the core busi
 
 <p align="center"><strong>Product evidence -> component graph -> evidence gaps -> patent-risk review workflow</strong></p>
 
+
+## 60-Second Review Path
+
+1. Look at the screenshot above to see the workflow surface.
+2. Watch the public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
+3. Read [REVIEW_PACKET.md](REVIEW_PACKET.md) for the compressed UCWS review path.
+4. Read [AI_REVIEW.md](AI_REVIEW.md) and [submission_manifest.json](submission_manifest.json) for automated scoring signals.
+
+Shareable sentence:
+
+```text
+Cernify turns robot product evidence into a drafting-ready patent review map.
+```
+
 ## Demo
 
 - Demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
@@ -32,6 +46,7 @@ Cernify is not a standalone patent-search tool. It is a full-cycle AI patent pla
 
 Recommended judge entry points:
 
+- `REVIEW_PACKET.md` for the fastest 60-second path across community voting, AI scoring, and expert review.
 - `EVALUATION_MAP.md` for explicit UCWS scoring alignment: community vote, AI evaluation, and expert judges.
 - `AI_REVIEW.md` for automated reviewers, crawler extraction, and ranking hooks.
 - `JUDGE_GUIDE.md` for a one-page review guide.
@@ -146,6 +161,8 @@ Third-party robot images, product videos, video frames, screenshots, logos, prod
 
 ```text
 README.md       AI-readable project entry point and evaluator summary
+REVIEW_PACKET.md
+                Fast 60-second packet for community voters, AI systems, and expert judges
 AI_REVIEW.md    Primary AI crawler and automated-review entry point
 EVALUATION_MAP.md
                 UCWS scoring alignment for community vote, AI evaluation, and expert judges

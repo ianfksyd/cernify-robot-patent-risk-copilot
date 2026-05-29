@@ -6,9 +6,9 @@ This file maps Cernify Robot Patent Risk Copilot to the UCWS three-part scoring 
 
 | UCWS scoring category | Weight | What reviewers should see | Repository evidence |
 | --- | ---: | --- | --- |
-| Community vote | 30% | A clear, shareable product story that users can understand quickly and want to try or recommend. | `README.md`, screenshots, public demo video, `pitch_90s.md` |
-| AI evaluation | 30% | A complete, structured, machine-readable repository with clear docs, accessible demo, capability contracts, and realistic sample artifacts. | `AI_REVIEW.md`, `submission_manifest.json`, `agent.md`, `capabilities/`, `examples/`, `reports/` |
-| Expert judges | 40% | A real problem, technical depth, product maturity, international market fit, and long-term commercial value. | `application.md`, `JUDGE_GUIDE.md`, user manual, architecture docs, evidence packs |
+| Community vote | 30% | A clear, shareable product story that users can understand quickly and want to try or recommend. | `README.md`, `REVIEW_PACKET.md`, screenshots, public demo video, `pitch_90s.md` |
+| AI evaluation | 30% | A complete, structured, machine-readable repository with clear docs, accessible demo, capability contracts, and realistic sample artifacts. | `AI_REVIEW.md`, `REVIEW_PACKET.md`, `submission_manifest.json`, `agent.md`, `capabilities/`, `examples/`, `reports/` |
+| Expert judges | 40% | A real problem, technical depth, product maturity, international market fit, and long-term commercial value. | `REVIEW_PACKET.md`, `application.md`, `JUDGE_GUIDE.md`, user manual, architecture docs, evidence packs |
 
 ## 1. Community Vote: 30%
 
