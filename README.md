@@ -87,7 +87,7 @@ Capability IDs:
 - `robot.patent.map_risk`
 - `robot.fto.generate_evidence_report`
 
-Evaluation hooks:
+Review evidence:
 
 - Product evidence is converted into structured robot components.
 - Evidence status is explicit: observable, inferred, missing, or out of scope.
@@ -97,7 +97,7 @@ Evaluation hooks:
 - UCWS integration is capability-based and avoids exposing raw internal APIs.
 - The public demo uses public or synthetic data only.
 
-Project keywords:
+Topic summary:
 
 ```text
 Cernify, full-cycle AI patent platform, patent drafting, AI patent drafting, invention disclosure,

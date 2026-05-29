@@ -26,7 +26,7 @@ Why global users can understand and share it:
 - The output is concrete: a drafting-ready and counsel-ready evidence package.
 - The repository includes screenshots and a public demo video for quick browsing.
 
-Community vote hooks:
+Community vote evidence:
 
 - Users can understand the value without being patent experts.
 - Robotics founders can see a real launch-risk workflow.
@@ -41,7 +41,7 @@ Repository review facts:
 - Repository is public and structured for UCWS review.
 - README includes positioning, demo link, screenshots, workflow, file map, and safety boundary.
 - `PROJECT_BRIEF.md` provides the concise project brief.
-- `submission_manifest.json` provides structured metadata, keywords, evaluation hooks, capability IDs, and file inventory.
+- `submission_manifest.json` provides structured metadata, topics, review evidence, capability IDs, and file inventory.
 - `agent.md` defines capability contracts, input/output schemas, guardrails, and non-goals.
 - `capabilities/` contains schema-bound capability manifests and examples.
 - `examples/`, `reports/`, and `evidence-packs/` contain demo artifacts that support project authenticity.
@@ -89,7 +89,7 @@ Internationalization and commercialization:
 - Target users include inventors, patent attorneys, patent agents, in-house IP teams, robotics founders, and overseas expansion teams.
 - The workflow can support commercial patent drafting, invention disclosure, FTO preparation, office-action response, portfolio review, and investor diligence.
 
-## Project Keywords
+## Topic Summary
 
 ```text
 Cernify, full-cycle AI patent platform, patent drafting, AI patent drafting, patent document generation,

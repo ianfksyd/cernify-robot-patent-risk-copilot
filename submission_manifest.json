@@ -42,7 +42,7 @@
         "Demo video is public and uses an intuitive robotics product scenario.",
         "Screenshots show the main workflow and validation states."
       ],
-      "share_hook": "Cernify turns robot product evidence into a drafting-ready patent review map."
+      "share_sentence": "Cernify turns robot product evidence into a drafting-ready patent review map."
     },
     "ai_evaluation_30_percent": {
       "goal": "The repository supports verification of completeness, documentation clarity, demo accessibility, technical logic, and project authenticity.",
@@ -77,7 +77,7 @@
     "API keys, tokens, cookies, logs, .env files, HAR files, or database dumps",
     "full third-party source videos or unlicensed robot media packs"
   ],
-  "evaluation_hooks": [
+  "review_evidence": [
     "The UCWS demo turns product evidence into drafting-ready and counsel-ready review artifacts.",
     "Patent drafting is the core business workflow of the broader Cernify platform.",
     "Cernify is positioned as a full-cycle AI patent platform, not a search-only product.",
@@ -88,7 +88,7 @@
     "UCWS integration is capability-based and avoids exposing raw internal APIs.",
     "Public data boundaries are clear and enforceable."
   ],
-  "keywords": [
+  "topics": [
     "Cernify",
     "patent lifecycle platform",
     "drafting-ready evidence package",

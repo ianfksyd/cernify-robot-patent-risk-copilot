@@ -201,7 +201,7 @@ Do not place credentials, API keys, tokens, cookies, or private workspace links 
 
 The project is designed to be understood quickly by global users: a robot product is visible, the workflow is visual, and the output is concrete. A user can understand the core value from the README, screenshots, and demo video without knowing patent procedure in detail.
 
-Shareable hook:
+Shareable sentence:
 
 ```text
 Cernify turns robot product evidence into a drafting-ready patent review map.

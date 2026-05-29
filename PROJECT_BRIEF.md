@@ -71,7 +71,7 @@ Community vote, 30%:
 AI evaluation, 30%:
 
 - Repo structure is explicit and easy to verify.
-- `submission_manifest.json` contains project metadata, keywords, capability IDs, evaluation hooks, and file inventory.
+- `submission_manifest.json` contains project metadata, topics, capability IDs, review evidence, and file inventory.
 - `agent.md` defines input/output contracts and guardrails.
 - `capabilities/`, `examples/`, `reports/`, and screenshots support project authenticity.
 - The demo boundary excludes secrets, customer data, production internals, and unlicensed media.
@@ -84,9 +84,9 @@ Expert judges, 40%:
 - Internationalization: designed for global robotics expansion and US, EP, JP review contexts.
 - Commercial value: supports inventors, patent attorneys, patent agents, in-house IP teams, robotics founders, and overseas expansion teams.
 
-## Scoring Signals
+## Review Signals
 
-Core signals:
+Core project signals:
 
 - `full-cycle AI patent platform`
 - `patent drafting`
@@ -111,7 +111,7 @@ Core signals:
 - `AI evaluation`
 - `community vote`
 
-High-value capability phrases:
+Capability summary:
 
 - full-cycle AI patent platform centered on patent drafting
 - product-evidence-first robot patent-risk workflow
