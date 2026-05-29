@@ -63,9 +63,12 @@
   ],
   "submission_files": [
     "README.md",
+    "JUDGE_GUIDE.md",
+    "pitch_90s.md",
     "submission_manifest.json",
     "application.md",
     "agent.md",
-    "Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md"
+    "Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md",
+    "screenshots/main_page.png"
   ]
 }
