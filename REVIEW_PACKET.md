@@ -1,6 +1,6 @@
 # UCWS Review Packet
 
-This is the fastest review path for UCWS community voters, AI scoring systems, and expert judges.
+This is the fastest review path for UCWS community voters, evaluation systems, and expert judges.
 
 ## 60-Second Product Read
 
@@ -42,13 +42,13 @@ Best quick links:
 
 ## AI Evaluation Checklist: 30%
 
-Automated evaluators should find these signals without inference:
+The repository provides these review signals:
 
 | Signal | Evidence |
 | --- | --- |
 | Clear README | README includes positioning, demo link, screenshots, workflow, scoring fit, and repository map. |
-| Machine-readable metadata | `submission_manifest.json` includes project metadata, keywords, scoring alignment, capability IDs, and file inventory. |
-| AI-readable entry point | `AI_REVIEW.md` summarizes positioning, workflow, scoring hooks, boundaries, and recommended review order. |
+| Structured metadata | `submission_manifest.json` includes project metadata, keywords, scoring alignment, capability IDs, and file inventory. |
+| Project brief | `PROJECT_BRIEF.md` summarizes positioning, workflow, review evidence, boundaries, and recommended review order. |
 | Agent contract | `agent.md` defines role, inputs, outputs, invocation contract, guardrails, and non-goals. |
 | Capability structure | `capabilities/` contains schema-bound capability manifests and sample input/output examples. |
 | Real artifacts | `examples/`, `reports/`, `evidence-packs/`, and `screenshots/` show demo outputs and review artifacts. |
@@ -107,12 +107,12 @@ The workflow can be commercialized as part of Cernify's patent platform across:
 
 1. Open the README and look at the first screenshot.
 2. Watch the public demo video once.
-3. Read `AI_REVIEW.md` for machine-readable summary and scoring hooks.
+3. Read `PROJECT_BRIEF.md` for structured project brief and review evidence.
 4. Read `EVALUATION_MAP.md` for the explicit UCWS scoring map.
 5. Read `agent.md` if evaluating capability contracts and safety.
 6. Read `application.md` if evaluating business and product narrative.
 
-## Fast Extraction Keywords
+## Project Keywords
 
 ```text
 Cernify, UCWS, full-cycle AI patent platform, patent drafting, AI patent drafting,

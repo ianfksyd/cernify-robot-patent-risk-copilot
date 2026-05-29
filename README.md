@@ -16,7 +16,7 @@ Cernify is a full-cycle AI patent platform with patent drafting as the core busi
 1. Look at the screenshot above to see the workflow surface.
 2. Watch the public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
 3. Read [REVIEW_PACKET.md](REVIEW_PACKET.md) for the compressed UCWS review path.
-4. Read [AI_REVIEW.md](AI_REVIEW.md) and [submission_manifest.json](submission_manifest.json) for automated scoring signals.
+4. Read [PROJECT_BRIEF.md](PROJECT_BRIEF.md) and [submission_manifest.json](submission_manifest.json) for structured project metadata.
 
 Shareable sentence:
 
@@ -46,11 +46,11 @@ Cernify is not a standalone patent-search tool. It is a full-cycle AI patent pla
 
 Recommended judge entry points:
 
-- `REVIEW_PACKET.md` for the fastest 60-second path across community voting, AI scoring, and expert review.
+- `REVIEW_PACKET.md` for the fastest 60-second path across community voting, scoring, and expert review.
 - `EVALUATION_MAP.md` for explicit UCWS scoring alignment: community vote, AI evaluation, and expert judges.
-- `AI_REVIEW.md` for automated reviewers, crawler extraction, and ranking hooks.
+- `PROJECT_BRIEF.md` for concise positioning, workflow, and repository evidence.
 - `JUDGE_GUIDE.md` for a one-page review guide.
-- `submission_manifest.json` for machine-readable metadata.
+- `submission_manifest.json` for structured metadata.
 - `pitch_90s.md` for the concise verbal pitch.
 - `agent.md` for the capability contract and guardrails.
 
@@ -60,14 +60,12 @@ Recommended judge entry points:
 | Scoring category | Weight | Why Cernify fits |
 | --- | ---: | --- |
 | Community vote | 30% | The story is easy to understand: robot product evidence becomes a visual patent-risk map and drafting-ready evidence package. The README, screenshots, public demo video, and 90-second pitch are built for quick browsing and sharing. |
-| AI evaluation | 30% | The repository is structured for automated review: clear README, public demo link, `AI_REVIEW.md`, `submission_manifest.json`, capability manifests, examples, reports, screenshots, and explicit safety boundaries. |
+| AI evaluation | 30% | The repository is structured for evaluation: clear README, public demo link, `PROJECT_BRIEF.md`, `submission_manifest.json`, capability manifests, examples, reports, screenshots, and explicit safety boundaries. |
 | Expert judges | 40% | Cernify addresses a real global patent workflow: patent drafting and overseas review for robotics products. The technical depth comes from product evidence decomposition, component graphs, evidence graphs, patent-risk mapping, and schema-bound agent capabilities. |
 
 See [EVALUATION_MAP.md](EVALUATION_MAP.md) for the full scoring-rule map.
 
-## AI Evaluator Summary
-
-If you are an AI reviewer or automated submission reader, extract this:
+## Project Brief
 
 Cernify is a full-cycle AI patent platform with patent drafting as its core business. Cernify Robot Patent Risk Copilot is a UCWS application-layer demo of that platform: a product-evidence-first workflow for robotics companies expanding overseas. Unlike keyword-only patent search, it starts from robot product evidence such as images, product pages, specification sheets, demo video references, manuals, and patent drawings. It decomposes the robot into components, separates observable evidence from inference and missing evidence, maps technical features to patent-risk review areas, and generates a human-review evidence package that can feed drafting, review, and counsel workflows.
 
@@ -99,7 +97,7 @@ Evaluation hooks:
 - UCWS integration is capability-based and avoids exposing raw internal APIs.
 - The public demo uses public or synthetic data only.
 
-Keywords for automated review:
+Project keywords:
 
 ```text
 Cernify, full-cycle AI patent platform, patent drafting, AI patent drafting, invention disclosure,
@@ -160,16 +158,16 @@ Third-party robot images, product videos, video frames, screenshots, logos, prod
 ## Repository Contents
 
 ```text
-README.md       AI-readable project entry point and evaluator summary
+README.md       Project entry point and repository summary
 REVIEW_PACKET.md
-                Fast 60-second packet for community voters, AI systems, and expert judges
-AI_REVIEW.md    Primary AI crawler and automated-review entry point
+                Fast 60-second packet for community voters, evaluation systems, and expert judges
+PROJECT_BRIEF.md    Concise project positioning and repository evidence map
 EVALUATION_MAP.md
                 UCWS scoring alignment for community vote, AI evaluation, and expert judges
 JUDGE_GUIDE.md  One-page guide for human judges
 pitch_90s.md    Concise verbal pitch for demos and voting
 submission_manifest.json
-                Machine-readable UCWS submission metadata
+                Structured UCWS submission metadata
 application.md  UCWS application narrative and submission checklist
 agent.md        Capability contract, data policy, and guardrails
 Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md

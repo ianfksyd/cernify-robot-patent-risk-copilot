@@ -17,7 +17,7 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 1. Watch the public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
 2. Read `REVIEW_PACKET.md` for the fastest review packet.
 3. Read `EVALUATION_MAP.md` for the UCWS scoring alignment.
-4. Read `submission_manifest.json` for machine-readable metadata.
+4. Read `submission_manifest.json` for structured metadata.
 5. Read `agent.md` for capability contract and guardrails.
 6. Read `application.md` for the project narrative.
 7. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
@@ -28,7 +28,7 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 | UCWS category | Weight | What to check |
 | --- | ---: | --- |
 | Community vote | 30% | Can a global user understand the product quickly from the README, screenshots, demo video, and 90-second pitch? |
-| AI evaluation | 30% | Is the repo structured, machine-readable, complete, authentic, and safe for automated review? |
+| AI evaluation | 30% | Is the repo structured, complete, authentic, and safe for repository review? |
 | Expert judges | 40% | Does the project solve a real patent workflow problem with technical depth, product maturity, international potential, and commercialization value? |
 
 Quick answer: Cernify is a drafting-core AI patent platform. This UCWS demo turns robot product evidence into a component graph, evidence graph, patent-risk map, and drafting-ready evidence report.

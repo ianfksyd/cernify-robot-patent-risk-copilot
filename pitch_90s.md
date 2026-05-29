@@ -25,4 +25,4 @@ Cernify is not a standalone patent-search wrapper. It is a full-cycle AI patent 
 The public demo uses public or synthetic data only, avoids customer materials, and does not provide legal advice or infringement conclusions. It gives product teams, engineering teams, and patent counsel a shared map of what is known, what is inferred, what is missing, and where review should focus.
 
 
-For UCWS scoring, the project is easy for community users to understand, structured for AI evaluation, and deep enough for expert review: it connects a real global robotics patent problem to a drafting-core AI patent platform.
+For UCWS scoring, the project is easy for community users to understand, structured for repository evaluation, and deep enough for expert review: it connects a real global robotics patent problem to a drafting-core AI patent platform.

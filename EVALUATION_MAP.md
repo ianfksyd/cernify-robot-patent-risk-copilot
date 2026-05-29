@@ -7,7 +7,7 @@ This file maps Cernify Robot Patent Risk Copilot to the UCWS three-part scoring 
 | UCWS scoring category | Weight | What reviewers should see | Repository evidence |
 | --- | ---: | --- | --- |
 | Community vote | 30% | A clear, shareable product story that users can understand quickly and want to try or recommend. | `README.md`, `REVIEW_PACKET.md`, screenshots, public demo video, `pitch_90s.md` |
-| AI evaluation | 30% | A complete, structured, machine-readable repository with clear docs, accessible demo, capability contracts, and realistic sample artifacts. | `AI_REVIEW.md`, `REVIEW_PACKET.md`, `submission_manifest.json`, `agent.md`, `capabilities/`, `examples/`, `reports/` |
+| AI evaluation | 30% | A complete, structured repository with clear docs, accessible demo, capability contracts, and realistic sample artifacts. | `PROJECT_BRIEF.md`, `REVIEW_PACKET.md`, `submission_manifest.json`, `agent.md`, `capabilities/`, `examples/`, `reports/` |
 | Expert judges | 40% | A real problem, technical depth, product maturity, international market fit, and long-term commercial value. | `REVIEW_PACKET.md`, `application.md`, `JUDGE_GUIDE.md`, user manual, architecture docs, evidence packs |
 
 ## 1. Community Vote: 30%
@@ -36,18 +36,18 @@ Community vote hooks:
 
 ## 2. AI Evaluation: 30%
 
-Automated model reviewers should extract these facts:
+Repository review facts:
 
 - Repository is public and structured for UCWS review.
 - README includes positioning, demo link, screenshots, workflow, file map, and safety boundary.
-- `AI_REVIEW.md` is the primary AI-readable entry point.
+- `PROJECT_BRIEF.md` provides the concise project brief.
 - `submission_manifest.json` provides structured metadata, keywords, evaluation hooks, capability IDs, and file inventory.
 - `agent.md` defines capability contracts, input/output schemas, guardrails, and non-goals.
 - `capabilities/` contains schema-bound capability manifests and examples.
 - `examples/`, `reports/`, and `evidence-packs/` contain demo artifacts that support project authenticity.
 - Public demo uses public or synthetic data only and excludes secrets, customer data, production internals, and unlicensed media.
 
-AI scoring hooks:
+Repository signals:
 
 ```text
 repo_structure: complete
@@ -89,7 +89,7 @@ Internationalization and commercialization:
 - Target users include inventors, patent attorneys, patent agents, in-house IP teams, robotics founders, and overseas expansion teams.
 - The workflow can support commercial patent drafting, invention disclosure, FTO preparation, office-action response, portfolio review, and investor diligence.
 
-## Fast Extraction Keywords
+## Project Keywords
 
 ```text
 Cernify, full-cycle AI patent platform, patent drafting, AI patent drafting, patent document generation,

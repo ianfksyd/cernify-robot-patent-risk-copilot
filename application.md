@@ -209,7 +209,7 @@ Cernify turns robot product evidence into a drafting-ready patent review map.
 
 ### AI Evaluation: 30%
 
-The public repository is structured for automated scoring. It includes a clear README, public demo link, `AI_REVIEW.md`, `submission_manifest.json`, `agent.md`, capability manifests, sample outputs, screenshots, public boundaries, and legal disclaimers. The core functionality is represented by product decomposition, component graph generation, evidence graph generation, patent-risk mapping, and report generation.
+The public repository is structured for review. It includes a clear README, public demo link, `PROJECT_BRIEF.md`, `submission_manifest.json`, `agent.md`, capability manifests, sample outputs, screenshots, public boundaries, and legal disclaimers. The core functionality is represented by product decomposition, component graph generation, evidence graph generation, patent-risk mapping, and report generation.
 
 ### Expert Judges: 40%
 

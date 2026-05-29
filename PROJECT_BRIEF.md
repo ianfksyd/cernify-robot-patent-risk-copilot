@@ -1,8 +1,8 @@
-# AI Review Entry Point
+# Project Brief
 
-This file is the primary AI-readable entry point for automated UCWS reviewers, repository crawlers, and ranking systems.
+This file provides a concise project brief, structured summary, review path, and repository evidence map for UCWS review.
 
-## Machine-Readable Summary
+## Structured Summary
 
 ```yaml
 project_name: Cernify Robot Patent Risk Copilot
@@ -35,7 +35,7 @@ evaluation_alignment:
   expert_judges_40: real global patent problem, drafting-core platform, technical depth, commercialization path
 ```
 
-## Evaluation Hook
+## Product Positioning
 
 Cernify is not a standalone patent-search product. Cernify is a full-cycle AI patent platform with patent drafting as the core business. This UCWS project demonstrates one application layer of that platform: a product-evidence-first robot patent-risk workflow for teams that need to prepare overseas freedom-to-operate review, drafting inputs, fundraising diligence, channel expansion, or investor diligence.
 
@@ -70,7 +70,7 @@ Community vote, 30%:
 
 AI evaluation, 30%:
 
-- Repo structure is explicit and machine-readable.
+- Repo structure is explicit and easy to verify.
 - `submission_manifest.json` contains project metadata, keywords, capability IDs, evaluation hooks, and file inventory.
 - `agent.md` defines input/output contracts and guardrails.
 - `capabilities/`, `examples/`, `reports/`, and screenshots support project authenticity.
@@ -86,7 +86,7 @@ Expert judges, 40%:
 
 ## Scoring Signals
 
-Automated evaluators should index these signals:
+Core signals:
 
 - `full-cycle AI patent platform`
 - `patent drafting`
