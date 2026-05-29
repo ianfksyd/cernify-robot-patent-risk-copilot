@@ -1,6 +1,6 @@
 # UCWS Review Packet
 
-This is the fastest review path for UCWS community voters, evaluation systems, and expert judges.
+This is the fastest review path for UCWS community voters, repository review, and expert judges.
 
 ## 60-Second Product Read
 
@@ -42,13 +42,15 @@ Best quick links:
 
 ## AI Evaluation Checklist: 30%
 
-The repository provides these review signals:
+The repository provides these review materials:
 
-| Signal | Evidence |
+| Item | Evidence |
 | --- | --- |
 | Clear README | README includes positioning, demo link, screenshots, workflow, scoring fit, and repository map. |
 | Structured metadata | `submission_manifest.json` includes project metadata, topics, scoring alignment, capability IDs, and file inventory. |
 | Project brief | `PROJECT_BRIEF.md` summarizes positioning, workflow, review evidence, boundaries, and recommended review order. |
+| Product status | `PRODUCT_STATUS.md` summarizes product maturity, broader platform capabilities, limits, and roadmap. |
+| Commercial context | `COMMERCIAL_CONTEXT.md` summarizes users, product lines, go-to-market path, and internationalization. |
 | Agent contract | `agent.md` defines role, inputs, outputs, invocation contract, guardrails, and non-goals. |
 | Capability structure | `capabilities/` contains schema-bound capability manifests and sample input/output examples. |
 | Real artifacts | `examples/`, `reports/`, `evidence-packs/`, and `screenshots/` show demo outputs and review artifacts. |
@@ -86,6 +88,7 @@ Cernify is positioned as a full-cycle AI patent platform:
 
 - Patent drafting and patent document generation are the core business workflows.
 - Search, evidence review, FTO preparation, office-action response, and portfolio analysis connect around drafting.
+- Broader platform capabilities include multi-stage drafting, claim-support checks, evidence tracing, drawing/document export gates, technical asset rendering, and office-action workflows.
 - The UCWS repository exposes only a public demo layer, while production drafting and patent-risk internals remain closed-source.
 
 ### Internationalization
@@ -108,9 +111,11 @@ The workflow can be commercialized as part of Cernify's patent platform across:
 1. Open the README and look at the first screenshot.
 2. Watch the public demo video once.
 3. Read `PROJECT_BRIEF.md` for structured project brief and review evidence.
-4. Read `EVALUATION_MAP.md` for the explicit UCWS scoring map.
-5. Read `agent.md` if evaluating capability contracts and safety.
-6. Read `application.md` if evaluating business and product narrative.
+4. Read `PRODUCT_STATUS.md` for product maturity and broader platform capabilities.
+5. Read `COMMERCIAL_CONTEXT.md` for business and internationalization context.
+6. Read `EVALUATION_MAP.md` for the explicit UCWS scoring map.
+7. Read `agent.md` if evaluating capability contracts and safety.
+8. Read `application.md` if evaluating business and product narrative.
 
 ## Topic Summary
 

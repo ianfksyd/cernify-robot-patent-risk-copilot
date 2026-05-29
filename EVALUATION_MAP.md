@@ -7,8 +7,8 @@ This file maps Cernify Robot Patent Risk Copilot to the UCWS three-part scoring 
 | UCWS scoring category | Weight | What reviewers should see | Repository evidence |
 | --- | ---: | --- | --- |
 | Community vote | 30% | A clear, shareable product story that users can understand quickly and want to try or recommend. | `README.md`, `REVIEW_PACKET.md`, screenshots, public demo video, `pitch_90s.md` |
-| AI evaluation | 30% | A complete, structured repository with clear docs, accessible demo, capability contracts, and realistic sample artifacts. | `PROJECT_BRIEF.md`, `REVIEW_PACKET.md`, `submission_manifest.json`, `agent.md`, `capabilities/`, `examples/`, `reports/` |
-| Expert judges | 40% | A real problem, technical depth, product maturity, international market fit, and long-term commercial value. | `REVIEW_PACKET.md`, `application.md`, `JUDGE_GUIDE.md`, user manual, architecture docs, evidence packs |
+| AI evaluation | 30% | A complete, structured repository with clear docs, accessible demo, capability contracts, realistic sample artifacts, and product-status evidence. | `PROJECT_BRIEF.md`, `PRODUCT_STATUS.md`, `COMMERCIAL_CONTEXT.md`, `REVIEW_PACKET.md`, `submission_manifest.json`, `agent.md`, `capabilities/`, `examples/`, `reports/` |
+| Expert judges | 40% | A real problem, technical depth, product maturity, international market fit, and long-term commercial value. | `PRODUCT_STATUS.md`, `COMMERCIAL_CONTEXT.md`, `REVIEW_PACKET.md`, `application.md`, `JUDGE_GUIDE.md`, user manual, architecture docs, evidence packs |
 
 ## 1. Community Vote: 30%
 
@@ -41,13 +41,15 @@ Repository review facts:
 - Repository is public and structured for UCWS review.
 - README includes positioning, demo link, screenshots, workflow, file map, and safety boundary.
 - `PROJECT_BRIEF.md` provides the concise project brief.
+- `PRODUCT_STATUS.md` summarizes product maturity and broader platform capabilities.
+- `COMMERCIAL_CONTEXT.md` summarizes commercialization and internationalization context.
 - `submission_manifest.json` provides structured metadata, topics, review evidence, capability IDs, and file inventory.
 - `agent.md` defines capability contracts, input/output schemas, guardrails, and non-goals.
 - `capabilities/` contains schema-bound capability manifests and examples.
 - `examples/`, `reports/`, and `evidence-packs/` contain demo artifacts that support project authenticity.
 - Public demo uses public or synthetic data only and excludes secrets, customer data, production internals, and unlicensed media.
 
-Repository signals:
+Structured repository summary:
 
 ```text
 repo_structure: complete
@@ -81,6 +83,7 @@ Product maturity:
 
 - The UCWS demo is connected to Cernify's broader full-cycle AI patent platform.
 - Patent drafting is the core business workflow, with search, evidence review, response, and portfolio analysis connected around drafting.
+- Product maturity is supported by broader implemented workflows for drafting stages, claim support, evidence traceability, drawing consistency, document export, technical assets, and office-action response.
 - The workflow produces reusable artifacts for patent drafting teams, counsel, and product teams.
 
 Internationalization and commercialization:

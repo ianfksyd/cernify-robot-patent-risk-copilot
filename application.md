@@ -20,9 +20,11 @@ The application decomposes a robot into clickable components, maps each componen
 
 In one sentence: Cernify gives robotics teams a shared map of what is known, what is inferred, what is missing, and what can be reused for patent drafting, FTO preparation, and counsel review.
 
+The public repository also includes `PRODUCT_STATUS.md` and `COMMERCIAL_CONTEXT.md` to clarify product maturity, broader platform capabilities, commercialization logic, and internationalization without exposing production internals.
+
 ## Problem
 
-Robotics companies expanding overseas face patent risk across hardware, embedded software, sensors, control systems, algorithms, suppliers, and cloud-connected features. Traditional patent search workflows often begin with keywords, but product-specific risk usually starts with evidence:
+Robotics companies expanding overseas face patent risk across hardware, embedded software, sensors, control systems, algorithms, suppliers, and cloud-connected features. Traditional patent search workflows often begin with search terms, but product-specific risk usually starts with evidence:
 
 - What is visible on the robot?
 - Which modules are patent-sensitive?
@@ -72,6 +74,8 @@ Cernify explicitly separates:
 - Patent-risk review areas.
 
 That separation helps teams avoid overclaiming while still moving faster.
+
+The same evidence discipline appears across the broader Cernify platform: staged patent drafting, claim-support checks, evidence tracing, drawing and document export gates, professional technical assets, and office-action workflows.
 
 ## Demo Flow
 
@@ -210,6 +214,8 @@ Cernify turns robot product evidence into a drafting-ready patent review map.
 ### AI Evaluation: 30%
 
 The public repository is structured for review. It includes a clear README, public demo link, `PROJECT_BRIEF.md`, `submission_manifest.json`, `agent.md`, capability manifests, sample outputs, screenshots, public boundaries, and legal disclaimers. The core functionality is represented by product decomposition, component graph generation, evidence graph generation, patent-risk mapping, and report generation.
+
+`PRODUCT_STATUS.md` and `COMMERCIAL_CONTEXT.md` add product maturity, broader platform capability, commercialization, and internationalization context.
 
 ### Expert Judges: 40%
 

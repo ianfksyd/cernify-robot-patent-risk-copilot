@@ -40,8 +40,10 @@ Suggested review sequence:
 1. Watch the demo video once end to end.
 2. Read `application.md` for the project story and submission framing.
 3. Read `agent.md` for the callable capability contract and guardrails.
-4. Use this manual to understand the workflow from a user perspective.
-5. Review any sample component graph, evidence graph, patent-risk map, or report artifacts included in the public repository.
+4. Read `PRODUCT_STATUS.md` for product maturity and broader platform capabilities.
+5. Read `COMMERCIAL_CONTEXT.md` for commercial and internationalization context.
+6. Use this manual to understand the workflow from a user perspective.
+7. Review any sample component graph, evidence graph, patent-risk map, or report artifacts included in the public repository.
 
 The public demo video and repository are the default review path. If a live login-protected demo is separately provided, use only the restricted judge account supplied privately through the UCWS submission portal.
 

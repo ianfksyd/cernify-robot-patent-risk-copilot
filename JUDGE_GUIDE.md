@@ -17,10 +17,12 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 1. Watch the public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
 2. Read `REVIEW_PACKET.md` for the fastest review packet.
 3. Read `EVALUATION_MAP.md` for the UCWS scoring alignment.
-4. Read `submission_manifest.json` for structured metadata.
-5. Read `agent.md` for capability contract and guardrails.
-6. Read `application.md` for the project narrative.
-7. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
+4. Read `PRODUCT_STATUS.md` for product maturity and broader platform capabilities.
+5. Read `COMMERCIAL_CONTEXT.md` for commercialization and internationalization context.
+6. Read `submission_manifest.json` for structured metadata.
+7. Read `agent.md` for capability contract and guardrails.
+8. Read `application.md` for the project narrative.
+9. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
 
 
 ## Scoring Alignment
@@ -49,7 +51,7 @@ The submission demonstrates how UCWS can call professional hardtech capabilities
 
 The project exposes schema-bound capabilities, not raw internal APIs.
 
-## Evaluation Hooks
+## What This Shows
 
 A strong review should notice:
 
@@ -57,6 +59,7 @@ A strong review should notice:
 - Evidence status is explicit: observable, inferred, missing, or out of scope.
 - Patent-risk review is grounded in components and technical features.
 - Evidence packages can feed patent drafting preparation and counsel workflows.
+- Broader product maturity is visible through drafting, claim-support, evidence-traceability, drawing-export, document-generation, technical asset, and office-action workflows.
 - International potential is visible through US, EP, and JP robotics launch-review scenarios.
 - Commercialization is credible because the workflow serves inventors, patent attorneys, patent agents, in-house IP teams, robotics founders, and overseas expansion teams.
 - Outputs are designed for human review, not automatic legal conclusions.
