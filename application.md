@@ -14,11 +14,11 @@ Application
 
 ## Short Description
 
-Cernify Robot Patent Risk Copilot helps robotics teams turn product evidence into a structured patent-risk workflow. Instead of starting with keyword search, it starts with the product itself: public images, product pages, specification sheets, demo video references, manuals, or patent drawings.
+Cernify is a full-cycle AI patent platform with patent drafting as the core business. Cernify Robot Patent Risk Copilot is the UCWS application-layer demo that helps robotics teams turn product evidence into a structured patent-risk workflow and drafting-ready evidence package. Instead of starting with keyword search, it starts with the product itself: public images, product pages, specification sheets, demo video references, manuals, or patent drawings.
 
-The application decomposes a robot into clickable components, maps each component to technical features and patent-risk areas, separates observable evidence from inference and missing evidence, and generates a human-review evidence package for counsel and product teams.
+The application decomposes a robot into clickable components, maps each component to technical features and patent-risk areas, separates observable evidence from inference and missing evidence, and generates a human-review evidence package for patent drafting preparation, counsel, and product teams.
 
-In one sentence: Cernify gives robotics teams a shared map of what is known, what is inferred, what is missing, and where patent review should focus.
+In one sentence: Cernify gives robotics teams a shared map of what is known, what is inferred, what is missing, and what can be reused for patent drafting, FTO preparation, and counsel review.
 
 ## Problem
 
@@ -30,7 +30,7 @@ Robotics companies expanding overseas face patent risk across hardware, embedded
 - Which evidence is missing?
 - Which components require counsel-reviewed patent search and claim analysis?
 
-Without a shared evidence map, legal teams, product teams, and engineering teams work from scattered screenshots, notes, PDFs, and search results.
+Without a shared evidence map, legal teams, product teams, engineering teams, and drafting teams work from scattered screenshots, notes, PDFs, and search results.
 
 ## Solution
 
@@ -50,11 +50,11 @@ The demo shows how a humanoid robot case can move from public or synthetic produ
 - Missing evidence and next verification steps.
 - A sample FTO evidence report.
 
-The goal is not to replace lawyers or patent professionals. The goal is to make product evidence legible, reviewable, and reusable before formal legal analysis.
+The goal is not to replace lawyers or patent professionals. The goal is to make product evidence legible, reviewable, and reusable before formal legal analysis or patent drafting work.
 
 ## What Makes It Different
 
-Most patent tools begin with text search. Cernify begins with product evidence.
+Many patent tools begin with text search. Cernify is broader: it is a full-cycle AI patent platform centered on drafting, and this UCWS demo begins with product evidence so drafting and review work can start from traceable facts.
 
 For robotics, this matters because the risk is often hidden across product layers:
 
@@ -88,7 +88,7 @@ A robotics startup is preparing to launch a humanoid robot in the US, Europe, an
 
 For each module, the system identifies evidence status and review needs. For example, the head perception module may be visible, but the sensor fusion algorithm is not directly observable. The output flags this as an evidence gap rather than pretending it can be proven from images.
 
-The final report gives the legal and product teams a shared starting point for FTO review.
+The final report gives the legal, drafting, and product teams a shared starting point for FTO review and patent drafting preparation.
 
 ## Core Capabilities
 
@@ -102,12 +102,13 @@ Maps components and technical features to patent-risk review areas, target juris
 
 ### `robot.fto.generate_evidence_report`
 
-Generates a review artifact summarizing component risks, evidence references, missing evidence, and next steps.
+Generates a review artifact summarizing component risks, evidence references, missing evidence, and next steps for counsel review and patent drafting preparation.
 
 ## Target Users
 
 - Robotics founders and product leaders.
 - Patent teams preparing overseas launch reviews.
+- Patent drafting teams turning product evidence into structured disclosure input.
 - FTO counsel organizing technical evidence.
 - Engineering teams documenting product architecture.
 - UCWS agents that need safe, schema-bound hardtech capabilities.
@@ -136,6 +137,7 @@ The UCWS public repository should include:
 The public repository should not include:
 
 - Cernify production platform source code.
+- Production patent drafting engine internals.
 - Production patent retrieval, ranking, or scoring internals.
 - FTO reasoning engine internals.
 - Customer workspaces.
@@ -200,9 +202,9 @@ Cernify gives those teams a shared map: what is known, what is inferred, what is
 
 Cernify Robot Patent Risk Copilot is an application-layer demo for UCWS. It demonstrates how a hardtech workflow can be exposed as safe, schema-bound capabilities instead of raw internal APIs.
 
-The core contribution is a product-evidence-first workflow for robot patent-risk review:
+The core contribution is a product-evidence-first workflow that connects robot patent-risk review with patent drafting preparation:
 
 ```text
-public or synthetic evidence -> component graph -> evidence graph -> patent-risk map -> human-review evidence report
+public or synthetic evidence -> component graph -> evidence graph -> patent-risk map -> drafting-ready and human-review evidence report
 ```
 

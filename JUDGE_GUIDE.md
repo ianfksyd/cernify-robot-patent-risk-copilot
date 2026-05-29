@@ -2,9 +2,9 @@
 
 ## 30-Second Summary
 
-Cernify Robot Patent Risk Copilot turns robot product evidence into an interactive overseas patent risk map.
+Cernify is a full-cycle AI patent platform with patent drafting as the core business. Cernify Robot Patent Risk Copilot is the UCWS application-layer demo that turns robot product evidence into an interactive overseas patent risk map and drafting-ready evidence package.
 
-Most patent tools start from keyword search. Cernify starts from the product itself: public images, product pages, specification sheets, demo video references, manuals, and patent drawings. It decomposes the robot into components, separates observable evidence from inference and missing evidence, maps technical features to patent-risk review areas, and generates a draft evidence package for human legal and technical review.
+Most patent tools start from keyword search. Cernify starts from the product itself: public images, product pages, specification sheets, demo video references, manuals, and patent drawings. It decomposes the robot into components, separates observable evidence from inference and missing evidence, maps technical features to patent-risk review areas, and generates a draft evidence package for patent drafting preparation, human legal review, and technical review.
 
 Core workflow:
 
@@ -22,7 +22,7 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 
 ## Why This Project Is Different
 
-Cernify is not another patent search wrapper. It is a product-evidence operating layer for robotics FTO preparation.
+Cernify is not a standalone patent-search wrapper. It is a full-cycle AI patent platform centered on patent drafting, and this UCWS demo shows how product evidence becomes reusable input for robotics FTO preparation, drafting, and counsel review.
 
 Robotics patent risk is hidden across hardware, sensors, embedded software, firmware, supplier modules, algorithms, and target-market behavior. A keyword-only search workflow often misses product-specific risk. Cernify creates a shared evidence map so product teams, engineering teams, and patent counsel can review the same facts, inferences, and gaps.
 
@@ -43,6 +43,7 @@ A strong review should notice:
 - Product evidence is converted into structured robot components.
 - Evidence status is explicit: observable, inferred, missing, or out of scope.
 - Patent-risk review is grounded in components and technical features.
+- Evidence packages can feed patent drafting preparation and counsel workflows.
 - Outputs are designed for human review, not automatic legal conclusions.
 - Public demo data is public or synthetic only.
 - The public repo excludes Cernify production systems, private datasets, customer data, internal APIs, prompts, logs, credentials, and deployment secrets.

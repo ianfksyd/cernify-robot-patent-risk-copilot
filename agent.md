@@ -10,13 +10,13 @@ Cernify turns robot product evidence into an interactive overseas patent risk ma
 
 ## Agent Role
 
-The agent helps robotics teams, product teams, patent teams, and counsel organize public or synthetic demo evidence into a structured patent-risk workflow.
+Cernify is a full-cycle AI patent platform with patent drafting as the core business. This agent is the UCWS application-layer demo that helps robotics teams, product teams, patent drafting teams, patent teams, and counsel organize public or synthetic demo evidence into a structured patent-risk workflow and drafting-ready evidence package.
 
 It does not issue legal advice. It does not determine infringement, validity, or freedom-to-operate. It prepares evidence, gaps, and review artifacts for qualified legal and technical review.
 
 ## Core Problem
 
-Robot patent risk is product-specific and evidence-heavy. A robot combines mechanical modules, sensors, embedded software, control algorithms, suppliers, firmware, cloud services, and target-market behavior. Keyword search alone misses important risk because many patent-sensitive features are hidden in product architecture or inferred from public product evidence.
+Robot patent work is product-specific and evidence-heavy. A robot combines mechanical modules, sensors, embedded software, control algorithms, suppliers, firmware, cloud services, and target-market behavior. Keyword search alone misses important context because many patent-sensitive features are hidden in product architecture or inferred from public product evidence. Cernify uses this evidence layer to support patent drafting preparation, review, and FTO workflows.
 
 Cernify starts from product evidence and creates a shared map:
 
@@ -28,6 +28,7 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 
 - Robotics startups expanding overseas.
 - Patent and FTO teams reviewing robot products before launch.
+- Patent drafting teams turning technical evidence into structured disclosure input.
 - Product managers preparing evidence for counsel.
 - Technical teams that need to explain product architecture and evidence gaps.
 - UCWS agents that need a bounded, schema-based patent-risk capability instead of raw internal APIs.
@@ -78,7 +79,7 @@ Output examples:
 
 ### 3. `robot.fto.generate_evidence_report`
 
-Generates a review artifact for legal and product teams.
+Generates a drafting-ready review artifact for legal, patent drafting, and product teams.
 
 Input examples:
 
@@ -91,6 +92,7 @@ Input examples:
 Output examples:
 
 - FTO evidence report.
+- Drafting-ready evidence package.
 - Component-by-component risk summary.
 - Evidence references.
 - Missing evidence table.

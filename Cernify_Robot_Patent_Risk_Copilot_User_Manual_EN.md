@@ -6,7 +6,7 @@ Source reference: adapted from the Chinese Cernify AI illustrated product manual
 
 ## 1. Overview
 
-Cernify Robot Patent Risk Copilot is a product-evidence-first patent-risk workflow for robotics teams. It helps users turn public or synthetic robot product materials into a structured evidence package for patent-risk review in the UCWS public demo.
+Cernify is a full-cycle AI patent platform with patent drafting as the core business. Cernify Robot Patent Risk Copilot is a product-evidence-first UCWS demo workflow for robotics teams. It helps users turn public or synthetic robot product materials into a structured evidence package for patent-risk review, patent drafting preparation, and counsel review.
 
 The workflow is:
 
@@ -23,6 +23,7 @@ This manual is written for:
 - UCWS judges reviewing the public demo.
 - Robotics founders and product teams preparing overseas launch reviews.
 - Patent and FTO teams organizing product evidence.
+- Patent drafting teams preparing structured disclosure input.
 - Counsel who need a structured starting point for claim review.
 - Technical teams that need to separate observable facts, reasonable inferences, and missing evidence.
 
@@ -169,7 +170,7 @@ It should be reviewed by qualified patent counsel before being used for legal st
 
 ## 6. Core Product Modules From The Cernify Manual
 
-The Chinese Cernify product manual describes the broader Cernify AI patent workflow. The UCWS demo uses a focused subset of that broader platform.
+The Chinese Cernify product manual describes the broader Cernify AI patent workflow. That broader platform is centered on patent drafting and document generation, with search, review, response, and evidence workflows connected around drafting. The UCWS demo uses a focused subset of that broader platform.
 
 ### 6.1 Dashboard And Navigation
 
@@ -246,7 +247,7 @@ For UCWS, the equivalent output is the patent-risk map and review focus list.
 
 ### 6.7 Patent Drafting Workflow
 
-The broader Cernify platform supports multi-stage patent drafting. The UCWS demo does not expose full production drafting internals, but it uses the same principle: break complex patent work into reviewable stages instead of producing a single opaque answer.
+Patent drafting is the core business workflow of the broader Cernify platform. The UCWS demo does not expose full production drafting internals, but it uses the same principle: break complex patent work into reviewable stages, preserve evidence support, and create drafting-ready inputs instead of producing a single opaque answer.
 
 ### 6.8 Quality And IP Review
 
@@ -358,7 +359,7 @@ No. The UCWS public demo should use only public or synthetic data.
 
 ### Does the public repository include Cernify production internals?
 
-No. The public repository should contain only the demo layer, schemas, examples, and documentation. Production retrieval, ranking, FTO reasoning, customer workspaces, and internal APIs are excluded.
+No. The public repository should contain only the demo layer, schemas, examples, and documentation. Production drafting, retrieval, ranking, FTO reasoning, customer workspaces, and internal APIs are excluded.
 
 ### What should a reviewer look for?
 
