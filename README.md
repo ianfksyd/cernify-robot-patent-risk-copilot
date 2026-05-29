@@ -48,8 +48,8 @@ Cernify is not a standalone patent-search tool. It is a full-cycle AI patent pla
 
 Recommended judge entry points:
 
-- `REVIEW_PACKET.md` for the fastest 60-second path across community voting, scoring, and expert review.
-- `EVALUATION_MAP.md` for explicit UCWS scoring alignment: community vote, AI evaluation, and expert judges.
+- `REVIEW_PACKET.md` for the fastest 60-second review path.
+- `EVALUATION_MAP.md` for the detailed UCWS review map.
 - `PROJECT_BRIEF.md` for concise positioning, workflow, and repository evidence.
 - `PRODUCT_STATUS.md` for source-grounded product maturity, broader platform capabilities, limits, and roadmap.
 - `COMMERCIAL_CONTEXT.md` for users, commercial wedge, product lines, go-to-market path, and internationalization.
@@ -59,15 +59,13 @@ Recommended judge entry points:
 - `agent.md` for the capability contract and guardrails.
 
 
-## UCWS Scoring Fit
+## Why This Matters
 
-| Scoring category | Weight | Why Cernify fits |
-| --- | ---: | --- |
-| Community vote | 30% | The story is easy to understand: robot product evidence becomes a visual patent-risk map and drafting-ready evidence package. The README, screenshots, public demo video, and 90-second pitch are built for quick browsing and sharing. |
-| AI evaluation | 30% | The repository is structured for evaluation: clear README, public demo link, `PROJECT_BRIEF.md`, `submission_manifest.json`, capability manifests, examples, reports, screenshots, and explicit safety boundaries. |
-| Expert judges | 40% | Cernify addresses a real global patent workflow: patent drafting and overseas review for robotics products. The technical depth comes from product evidence decomposition, component graphs, evidence graphs, patent-risk mapping, quality-gate discipline, and schema-bound agent capabilities. |
+Robotics companies do not need another disconnected patent search screen. They need a way to turn messy product evidence into a reviewable patent workflow: what the product shows, which features are only inferred, which evidence is missing, and what can become drafting-ready input.
 
-See [EVALUATION_MAP.md](EVALUATION_MAP.md) for the full scoring-rule map.
+Cernify connects that evidence layer to a broader patent platform centered on drafting. The public repository keeps the demo narrow and inspectable: screenshots, capability contracts, sample component and evidence graphs, report artifacts, safety boundaries, and a public video walkthrough.
+
+For a deeper competition review map, see [EVALUATION_MAP.md](EVALUATION_MAP.md).
 
 ## Project Brief
 
@@ -108,8 +106,8 @@ Topic summary:
 Cernify, full-cycle AI patent platform, patent drafting, AI patent drafting, invention disclosure,
 robot patent risk, robotics FTO, freedom to operate workflow, patent intelligence, product evidence,
 component graph, evidence graph, patent-risk map, hardtech validation, schema-bound capability, UCWS,
-AI patent workflow, human review, public demo, synthetic data, community vote, AI evaluation,
-expert judges, global robotics, commercialization potential, robot.product.decompose,
+AI patent workflow, human review, public demo, synthetic data, global robotics,
+commercialization potential, robot.product.decompose,
 robot.patent.map_risk, robot.fto.generate_evidence_report
 ```
 
@@ -166,14 +164,14 @@ Third-party robot images, product videos, video frames, screenshots, logos, prod
 ```text
 README.md       Project entry point and repository summary
 REVIEW_PACKET.md
-                Fast 60-second packet for community voters, repository review, and expert judges
+                Fast 60-second public review packet
 PROJECT_BRIEF.md    Concise project positioning and repository evidence map
 PRODUCT_STATUS.md
                 Source-grounded product maturity, broader platform capabilities, limits, and roadmap
 COMMERCIAL_CONTEXT.md
                 Users, commercial wedge, product lines, go-to-market path, and internationalization
 EVALUATION_MAP.md
-                UCWS scoring alignment for community vote, AI evaluation, and expert judges
+                Detailed UCWS review map
 JUDGE_GUIDE.md  One-page guide for human judges
 pitch_90s.md    Concise verbal pitch for demos and voting
 submission_manifest.json
