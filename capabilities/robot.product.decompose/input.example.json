@@ -4,8 +4,8 @@
     {
       "id": "asset_public_video_reference",
       "type": "video_reference",
-      "source": "public_source_reference",
-      "uri": "TBD_PUBLIC_SOURCE_URL",
+      "source": "public_demo_video",
+      "uri": "https://www.youtube.com/watch?v=jgG2NX9yF2I",
       "redistributed_in_repository": false
     },
     {
@@ -26,4 +26,3 @@
     ]
   }
 }
-

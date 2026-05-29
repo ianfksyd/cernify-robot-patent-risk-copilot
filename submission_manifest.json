@@ -1,0 +1,71 @@
+{
+  "schema_version": "ucws-submission-manifest-v0.1",
+  "project_name": "Cernify Robot Patent Risk Copilot",
+  "tagline": "Cernify turns robot product evidence into an interactive overseas patent risk map.",
+  "track": "Application",
+  "demo_video": "https://www.youtube.com/watch?v=jgG2NX9yF2I",
+  "core_workflow": [
+    "product evidence",
+    "component graph",
+    "evidence graph",
+    "patent-risk map",
+    "report artifact"
+  ],
+  "core_capabilities": [
+    {
+      "id": "robot.product.decompose",
+      "purpose": "Turn public or synthetic robot evidence into a component graph."
+    },
+    {
+      "id": "robot.patent.map_risk",
+      "purpose": "Map robot components and technical features to patent-risk review areas."
+    },
+    {
+      "id": "robot.fto.generate_evidence_report",
+      "purpose": "Generate a draft evidence package for human review."
+    }
+  ],
+  "data_boundary": "UCWS public demo uses public or synthetic data only.",
+  "legal_boundary": "Not legal advice, not an infringement determination, not a validity opinion, and not a final freedom-to-operate opinion.",
+  "public_repository_excludes": [
+    "Cernify production platform source code",
+    "production patent retrieval, ranking, scoring, or FTO reasoning internals",
+    "customer workspaces, customer files, or customer reports",
+    "internal APIs, task queues, billing, authentication internals, or deployment secrets",
+    "API keys, tokens, cookies, logs, .env files, HAR files, or database dumps",
+    "full third-party source videos or unlicensed robot media packs"
+  ],
+  "evaluation_hooks": [
+    "Product evidence is converted into structured robot components.",
+    "Evidence status is explicit: observable, inferred, missing, or out of scope.",
+    "Patent-risk review is grounded in components and technical features.",
+    "Outputs are suitable for human legal and technical review.",
+    "UCWS integration is capability-based and avoids exposing raw internal APIs.",
+    "Public data boundaries are clear and enforceable."
+  ],
+  "keywords": [
+    "Cernify",
+    "robot patent risk",
+    "robotics FTO",
+    "freedom to operate workflow",
+    "patent intelligence",
+    "product evidence",
+    "component graph",
+    "evidence graph",
+    "patent-risk map",
+    "hardtech validation",
+    "schema-bound capability",
+    "UCWS",
+    "AI patent workflow",
+    "human review",
+    "public demo",
+    "synthetic data"
+  ],
+  "submission_files": [
+    "README.md",
+    "submission_manifest.json",
+    "application.md",
+    "agent.md",
+    "Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md"
+  ]
+}

@@ -29,8 +29,8 @@ This repository is a public demo and reference workflow for UCWS.
 
 ## Data Policy
 
-All examples must be synthetic, public-reference, or explicitly authorized for
-public release. Do not submit customer data, private analysis, proprietary patent
+All examples must be synthetic, public-reference, or covered by documented
+public-release permission. Do not submit customer data, private analysis, proprietary patent
 datasets, private screenshots, logs, credentials, or internal prompts.
 
 ## Trademark Notice

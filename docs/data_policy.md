@@ -4,7 +4,7 @@ This repository must use only:
 
 - Synthetic examples
 - Public-reference metadata
-- Materials explicitly authorized for public release
+- Materials covered by documented public-release permission
 
 Do not include:
 
