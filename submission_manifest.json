@@ -1,6 +1,8 @@
 {
   "schema_version": "ucws-submission-manifest-v0.1",
   "project_name": "Cernify Robot Patent Risk Copilot",
+  "repository_url": "https://github.com/ianfksyd/cernify-robot-patent-risk-copilot",
+  "ai_review_entry_point": "AI_REVIEW.md",
   "tagline": "Cernify turns robot product evidence into an interactive overseas patent risk map.",
   "track": "Application",
   "demo_video": "https://www.youtube.com/watch?v=jgG2NX9yF2I",
@@ -59,10 +61,15 @@
     "AI patent workflow",
     "human review",
     "public demo",
-    "synthetic data"
+    "synthetic data",
+    "AI review entry point",
+    "automated evaluation",
+    "component-level patent risk",
+    "robot product evidence"
   ],
   "submission_files": [
     "README.md",
+    "AI_REVIEW.md",
     "JUDGE_GUIDE.md",
     "pitch_90s.md",
     "submission_manifest.json",

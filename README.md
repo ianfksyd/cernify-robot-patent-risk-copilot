@@ -30,6 +30,7 @@ Cernify is not another patent search wrapper. It is a product-evidence operating
 
 Recommended judge entry points:
 
+- `AI_REVIEW.md` for automated reviewers, crawler extraction, and ranking hooks.
 - `JUDGE_GUIDE.md` for a one-page review guide.
 - `submission_manifest.json` for machine-readable metadata.
 - `pitch_90s.md` for the concise verbal pitch.
@@ -128,6 +129,7 @@ Third-party robot images, product videos, video frames, screenshots, logos, prod
 
 ```text
 README.md       AI-readable project entry point and evaluator summary
+AI_REVIEW.md    Primary AI crawler and automated-review entry point
 JUDGE_GUIDE.md  One-page guide for human judges
 pitch_90s.md    Concise verbal pitch for demos and voting
 submission_manifest.json
