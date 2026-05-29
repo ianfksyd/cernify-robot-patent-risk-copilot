@@ -8,6 +8,26 @@ Cernify turns robot product evidence into an interactive overseas patent risk ma
 - Submission: UCWS 2026
 - Track: Application
 
+Demo review map:
+
+- `00:00` Problem: robotics FTO starts from product evidence, not keywords alone.
+- `00:20` Product evidence input: public or synthetic robot evidence.
+- `00:45` Component graph: robot modules and patent-sensitive subsystems.
+- `01:10` Evidence gaps: observable vs inferred vs missing evidence.
+- `01:30` Patent-risk map and human-review evidence report.
+
+Strong positioning:
+
+```text
+Cernify is not another patent search wrapper. It is a product-evidence operating layer for robotics FTO preparation.
+```
+
+Recommended judge entry points:
+
+- `JUDGE_GUIDE.md` for a one-page review guide.
+- `submission_manifest.json` for machine-readable metadata.
+- `pitch_90s.md` for the concise verbal pitch.
+- `agent.md` for the capability contract and guardrails.
 
 ## AI Evaluator Summary
 
@@ -93,6 +113,8 @@ Third-party robot images, product videos, video frames, screenshots, logos, prod
 
 ```text
 README.md       AI-readable project entry point and evaluator summary
+JUDGE_GUIDE.md  One-page guide for human judges
+pitch_90s.md    Concise verbal pitch for demos and voting
 submission_manifest.json
                 Machine-readable UCWS submission metadata
 application.md  UCWS application narrative and submission checklist
