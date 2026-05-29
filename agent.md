@@ -276,7 +276,7 @@ The agent should be evaluated on:
 
 Public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
 
-The public video is the preferred review path. A judge account is only needed if UCWS requests access to a live, login-protected demo environment.
+The public video and this repository are the preferred review path. No public credentials are required for that path. A judge account is only needed if UCWS requests access to a live, login-protected demo environment.
 
 ## Judge Demo Access
 
@@ -284,7 +284,7 @@ If a live demo requires login, use a dedicated judge account with restricted per
 
 ```text
 Private demo URL: supplied only if UCWS requests a login-protected environment
-Email: ucws-judge@cernify.ai
+Judge account email: supplied privately through the UCWS submission portal only, if requested
 Credentials: supplied privately through the UCWS submission portal only
 Workspace: UCWS Public Demo
 Data scope: public or synthetic demo data only

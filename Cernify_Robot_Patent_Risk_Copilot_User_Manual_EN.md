@@ -43,7 +43,7 @@ Suggested review sequence:
 4. Use this manual to understand the workflow from a user perspective.
 5. Review any sample component graph, evidence graph, patent-risk map, or report artifacts included in the public repository.
 
-If a live demo is provided, use only the restricted judge account supplied privately through the UCWS submission portal.
+The public demo video and repository are the default review path. If a live login-protected demo is separately provided, use only the restricted judge account supplied privately through the UCWS submission portal.
 
 ## 4. Public Demo Boundary
 
@@ -329,12 +329,12 @@ These modules are not required for the UCWS robot demo, but they show how Cernif
 
 ## 8. Judge Account Guidance
 
-If the UCWS submission includes a live login-protected demo, provide credentials only through the private UCWS submission portal.
+The public demo video and repository do not require public credentials. If the UCWS submission includes a live login-protected demo, provide credentials only through the private UCWS submission portal.
 
 Recommended judge account policy:
 
 ```text
-Email: ucws-judge@cernify.ai
+Judge account email: supplied privately through the UCWS submission portal only, if requested
 Workspace: UCWS Public Demo
 Data: public or synthetic demo data only
 Permissions: no admin, no billing, no API keys, no customer workspaces

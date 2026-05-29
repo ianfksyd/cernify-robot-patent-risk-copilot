@@ -157,6 +157,8 @@ It is not legal advice, not an infringement determination, not a validity opinio
 
 Public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
 
+Current public review path: the public demo video plus this public repository. No public credentials are required for this review path.
+
 Recommended public repository:
 
 ```text
@@ -167,11 +169,11 @@ If UCWS requires a forked repository or branch URL, use the official UCWS fork o
 
 ## Judge Access
 
-If the demo is not fully public, provide a restricted judge account through the private UCWS submission portal:
+Only if UCWS explicitly requests a live login-protected demo, provide a restricted judge account through the private UCWS submission portal:
 
 ```text
 Private demo URL: supplied only if UCWS requests a login-protected environment
-Email: ucws-judge@cernify.ai
+Judge account email: supplied privately through the UCWS submission portal only, if requested
 Credentials: supplied privately through the UCWS submission portal only
 Workspace: UCWS Public Demo
 Data: public or synthetic demo data only
@@ -185,8 +187,8 @@ Do not place credentials, API keys, tokens, cookies, or private workspace links 
 
 - Confirm the public demo video opens correctly: https://www.youtube.com/watch?v=jgG2NX9yF2I
 - Confirm the repository URL is public and points to the UCWS submission branch.
-- Confirm the judge account works in a private/incognito browser session.
-- Confirm the judge account can access only the `UCWS Public Demo` workspace.
+- If UCWS requests a live login-protected demo, confirm the private judge account works in a private/incognito browser session.
+- If UCWS requests a live login-protected demo, confirm the private judge account can access only the `UCWS Public Demo` workspace.
 - Confirm all UCWS public demo data is public or synthetic.
 - Confirm screenshots do not show customer names, tokens, internal task IDs, private URLs, browser network panels, or admin pages.
 - Confirm `agent.md`, `application.md`, `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md`, legal disclaimer, public boundary, data policy, and media rights files are included.
