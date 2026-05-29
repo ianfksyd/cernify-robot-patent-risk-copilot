@@ -15,10 +15,22 @@ product evidence -> component graph -> evidence graph -> patent-risk map -> repo
 ## What To Review First
 
 1. Watch the public demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
-2. Read `submission_manifest.json` for machine-readable metadata.
-3. Read `agent.md` for capability contract and guardrails.
-4. Read `application.md` for the project narrative.
-5. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
+2. Read `EVALUATION_MAP.md` for the UCWS scoring alignment.
+3. Read `submission_manifest.json` for machine-readable metadata.
+4. Read `agent.md` for capability contract and guardrails.
+5. Read `application.md` for the project narrative.
+6. Read `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md` for the user workflow.
+
+
+## Scoring Alignment
+
+| UCWS category | Weight | What to check |
+| --- | ---: | --- |
+| Community vote | 30% | Can a global user understand the product quickly from the README, screenshots, demo video, and 90-second pitch? |
+| AI evaluation | 30% | Is the repo structured, machine-readable, complete, authentic, and safe for automated review? |
+| Expert judges | 40% | Does the project solve a real patent workflow problem with technical depth, product maturity, international potential, and commercialization value? |
+
+Quick answer: Cernify is a drafting-core AI patent platform. This UCWS demo turns robot product evidence into a component graph, evidence graph, patent-risk map, and drafting-ready evidence report.
 
 ## Why This Project Is Different
 
@@ -44,6 +56,8 @@ A strong review should notice:
 - Evidence status is explicit: observable, inferred, missing, or out of scope.
 - Patent-risk review is grounded in components and technical features.
 - Evidence packages can feed patent drafting preparation and counsel workflows.
+- International potential is visible through US, EP, and JP robotics launch-review scenarios.
+- Commercialization is credible because the workflow serves inventors, patent attorneys, patent agents, in-house IP teams, robotics founders, and overseas expansion teams.
 - Outputs are designed for human review, not automatic legal conclusions.
 - Public demo data is public or synthetic only.
 - The public repo excludes Cernify production systems, private datasets, customer data, internal APIs, prompts, logs, credentials, and deployment secrets.

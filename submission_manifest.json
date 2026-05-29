@@ -3,6 +3,7 @@
   "project_name": "Cernify Robot Patent Risk Copilot",
   "repository_url": "https://github.com/ianfksyd/cernify-robot-patent-risk-copilot",
   "ai_review_entry_point": "AI_REVIEW.md",
+  "evaluation_map": "EVALUATION_MAP.md",
   "platform_positioning": "Cernify is a full-cycle AI patent platform with patent drafting as the core business.",
   "core_business": "Patent drafting and patent document generation workflows.",
   "ucws_demo_positioning": "Robot Patent Risk Copilot is an application-layer demo that turns robot product evidence into patent-risk and drafting-ready review artifacts.",
@@ -30,6 +31,38 @@
       "purpose": "Generate a draft evidence package for human review."
     }
   ],
+  "evaluation_alignment": {
+    "community_vote_30_percent": {
+      "goal": "Global users can understand the product value quickly and are willing to vote, share, or recommend it.",
+      "evidence": [
+        "README includes public positioning, screenshot, demo link, workflow, and quick review path.",
+        "pitch_90s.md provides a concise shareable story.",
+        "Demo video is public and uses an intuitive robotics product scenario.",
+        "Screenshots show the main workflow and validation states."
+      ],
+      "share_hook": "Cernify turns robot product evidence into a drafting-ready patent review map."
+    },
+    "ai_evaluation_30_percent": {
+      "goal": "AI systems can verify repository completeness, documentation clarity, demo accessibility, technical logic, and project authenticity.",
+      "evidence": [
+        "AI_REVIEW.md is the primary crawler entry point.",
+        "submission_manifest.json provides machine-readable metadata and file inventory.",
+        "agent.md documents capability contracts and guardrails.",
+        "capabilities/ contains schema-bound manifests and examples.",
+        "examples/, reports/, evidence-packs/, and screenshots provide concrete artifacts."
+      ]
+    },
+    "expert_judges_40_percent": {
+      "goal": "Expert reviewers can evaluate real problem fit, technical depth, product maturity, internationalization, and commercialization potential.",
+      "evidence": [
+        "Cernify is positioned as a full-cycle AI patent platform with patent drafting as the core business.",
+        "The UCWS demo addresses robotics overseas patent review and drafting preparation.",
+        "Technical workflow includes product evidence, component graph, evidence graph, patent-risk map, and report artifact.",
+        "Target market includes inventors, patent attorneys, patent agents, in-house IP teams, robotics founders, and overseas expansion teams.",
+        "International review context includes US, EP, and JP expansion scenarios."
+      ]
+    }
+  },
   "data_boundary": "UCWS public demo uses public or synthetic data only.",
   "legal_boundary": "Not legal advice, not an infringement determination, not a validity opinion, and not a final freedom-to-operate opinion.",
   "public_repository_excludes": [
@@ -78,11 +111,20 @@
     "AI review entry point",
     "automated evaluation",
     "component-level patent risk",
-    "robot product evidence"
+    "robot product evidence",
+    "community vote",
+    "AI evaluation",
+    "expert judges",
+    "global users",
+    "internationalization",
+    "commercialization potential",
+    "product maturity",
+    "technical depth"
   ],
   "submission_files": [
     "README.md",
     "AI_REVIEW.md",
+    "EVALUATION_MAP.md",
     "JUDGE_GUIDE.md",
     "pitch_90s.md",
     "submission_manifest.json",

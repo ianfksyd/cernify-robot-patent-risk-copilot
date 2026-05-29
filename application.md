@@ -192,6 +192,27 @@ Do not place credentials, API keys, tokens, cookies, or private workspace links 
 - Confirm `agent.md`, `application.md`, `Cernify_Robot_Patent_Risk_Copilot_User_Manual_EN.md`, legal disclaimer, public boundary, data policy, and media rights files are included.
 - Confirm no `.env`, keys, cookies, logs, HAR files, database dumps, or customer files are committed.
 
+
+## UCWS Scoring Alignment
+
+### Community Vote: 30%
+
+The project is designed to be understood quickly by global users: a robot product is visible, the workflow is visual, and the output is concrete. A user can understand the core value from the README, screenshots, and demo video without knowing patent procedure in detail.
+
+Shareable hook:
+
+```text
+Cernify turns robot product evidence into a drafting-ready patent review map.
+```
+
+### AI Evaluation: 30%
+
+The public repository is structured for automated scoring. It includes a clear README, public demo link, `AI_REVIEW.md`, `submission_manifest.json`, `agent.md`, capability manifests, sample outputs, screenshots, public boundaries, and legal disclaimers. The core functionality is represented by product decomposition, component graph generation, evidence graph generation, patent-risk mapping, and report generation.
+
+### Expert Judges: 40%
+
+The project addresses a real problem: robotics teams expanding overseas need patent drafting and FTO preparation before launch, fundraising, channel expansion, and diligence. The technical depth comes from preserving the chain from product evidence to component graph, evidence status, patent-risk review area, and drafting-ready evidence package. The commercial path extends from this UCWS demo into the broader Cernify patent drafting platform, including invention disclosure, patent drafting, review, office-action response, and portfolio workflows.
+
 ## Why Now
 
 Robotics companies are moving quickly into global markets, while patent density in perception, motion control, actuation, batteries, and human-machine interaction continues to rise. Teams need a faster way to turn product evidence into a structured review package before expensive legal and technical work begins.
