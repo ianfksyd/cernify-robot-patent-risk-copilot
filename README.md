@@ -2,6 +2,12 @@
 
 Cernify turns robot product evidence into an interactive overseas patent risk map.
 
+<p align="center">
+  <img src="screenshots/main_page.png" alt="Cernify Robot Patent Risk Copilot main page" width="900">
+</p>
+
+<p align="center"><strong>Product evidence -> component graph -> evidence gaps -> patent-risk review workflow</strong></p>
+
 ## Demo
 
 - Demo video: https://www.youtube.com/watch?v=jgG2NX9yF2I
@@ -71,6 +77,15 @@ schema-bound capability, UCWS, AI patent workflow, human review, public demo, sy
 robot.product.decompose, robot.patent.map_risk, robot.fto.generate_evidence_report
 ```
 
+
+## Screenshots
+
+| Main workflow | Validation overview | Validation detail |
+| --- | --- | --- |
+| ![Main workflow](screenshots/main_page.png) | ![Validation overview](screenshots/Validation.png) | ![Validation detail](screenshots/Validation_details.png) |
+
+Screenshots use the public UCWS demo context and should not include customer data, credentials, browser network panels, tokens, internal task IDs, or private workspace URLs.
+
 ## What This Repository Includes
 
 This repository contains the public UCWS demo layer for Cernify Robot Patent Risk Copilot:
@@ -126,7 +141,7 @@ docs/           Architecture, data policy, media rights, and demo story
 examples/       Public-reference or synthetic demo outputs
 evidence-packs/ Evidence package outputs and source reference templates
 reports/        Sample FTO evidence reports
-screenshots/    Screenshot review notes; no third-party screenshots by default
+screenshots/    Public demo screenshots and screenshot review notes
 ```
 
 ## Legal Disclaimer
